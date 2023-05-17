@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const { getAuthorizationUrl,getGsuiteToken ,getCalender, getEvents} = require('./utils/google');
+const { getAuthorizationUrl,getGsuiteToken ,getCalender, getEvents} = require('./google');
 const app = express();
 
 // Middleware setup
